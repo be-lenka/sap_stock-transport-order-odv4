@@ -1,0 +1,39 @@
+{
+    "name": "be-lenka/sap_stock-transport-order-odv4",
+    "description": "This service enables you to create stock transport orders through an API call from a source service outside the SAP S/4HANA Cloud Public Edition system. Furthermore, the service enables you to read, update or delete stock transport orders. This service is based on the OData V4 protocol.",
+    "keywords": [
+        "openapitools",
+        "openapi-generator",
+        "openapi",
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://openapi-generator.tech",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BeLenka Dev",
+            "homepage": "https://www.belenka.com"
+        }
+    ],
+    "require": {
+"php": ">=7.3",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+"guzzlehttp/guzzle": "^6.2 || ^7.0"
+ 
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "friendsofphp/php-cs-fixer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": { "BeLenka\\SAP\\StockTransportOrderODV4\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "BeLenka\\SAP\\StockTransportOrderODV4\\Test\\" : "test/" }
+    }
+}

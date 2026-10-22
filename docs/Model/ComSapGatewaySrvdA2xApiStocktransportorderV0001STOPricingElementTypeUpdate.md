@@ -1,0 +1,47 @@
+# # ComSapGatewaySrvdA2xApiStocktransportorderV0001STOPricingElementTypeUpdate
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**condition_type** | **string** |  | [optional]
+**condition_rate_amount** | [**\BeLenka\SAP\StockTransportOrderODV4\Model\ConditionAmount**](ConditionAmount.md) |  | [optional]
+**condition_rate_ratio** | [**\BeLenka\SAP\StockTransportOrderODV4\Model\Ratio**](Ratio.md) |  | [optional]
+**condition_rate_ratio_unit** | **string** | Unit of Measurement | [optional]
+**condition_currency** | **string** | Currency Key | [optional]
+**condition_quantity** | [**\BeLenka\SAP\StockTransportOrderODV4\Model\PricingUnit**](PricingUnit.md) |  | [optional]
+**condition_quantity_unit** | **string** | Condition Unit in the Document | [optional]
+**condition_to_base_qty_nmrtr** | [**\BeLenka\SAP\StockTransportOrderODV4\Model\Numerator**](Numerator.md) |  | [optional]
+**condition_to_base_qty_dnmntr** | [**\BeLenka\SAP\StockTransportOrderODV4\Model\Denominator**](Denominator.md) |  | [optional]
+**account_key_for_gl_account** | **string** |  | [optional]
+**gl_account** | **string** | G/L Account Number | [optional]
+**tax_code** | **string** | Tax on Sales/Purchases Code | [optional]
+**acct_key_for_accruals_gl_account** | **string** | Account Key - Accruals / Provisions | [optional]
+**accruals_gl_account** | **string** | Number of Accruals Account | [optional]
+**withholding_tax_code** | **string** | Withholding Tax Code | [optional]
+**freight_supplier** | **string** | Account Number of Supplier | [optional]
+**cndn_rounding_off_diff_amount** | [**\BeLenka\SAP\StockTransportOrderODV4\Model\ConditionRoundingDifference**](ConditionRoundingDifference.md) |  | [optional]
+**transaction_currency** | **string** | SD Document Currency | [optional]
+**prcg_procedure_counter_for_header** | **string** | Condition Counter (Header) | [optional]
+**structure_condition** | **string** |  | [optional]
+**period_factor_for_cndn_basis_value** | [**\BeLenka\SAP\StockTransportOrderODV4\Model\ConditionFactor1**](ConditionFactor1.md) |  | [optional]
+**condition_alternative_currency** | **string** | Condition Currency (for Cumulation Fields) | [optional]
+**condition_amount_in_local_crcy** | [**\BeLenka\SAP\StockTransportOrderODV4\Model\ConditionValue**](ConditionValue.md) |  | [optional]
+**billing_price_source** | **string** |  | [optional]
+**tax_jurisdiction_level** | **string** | Tax jurisdiction code level | [optional]
+**condition_byte_sequence** | **string** | Bit encrypted flags in Pricing | [optional]
+**condition_basis_limit_exceeded** | **string** | Indicator for Maximum Condition Basis Value | [optional]
+**condition_amount_limit_exceeded** | **string** | Indicator for Maximum Condition Amount | [optional]
+**customer_rebate_recipient** | **string** | Customer number (rebate recipient) | [optional]
+**variant_condition** | **string** | Variant Condition Key | [optional]
+**condition_acct_assgmt_relevance** | **string** | Relevance for Account Assignment | [optional]
+**condition_matrix_maint_relevance** | **string** | Indicator: Matrix Maintenance | [optional]
+**configbl_parameters_and_formulas** | **string** | Identifier of CPF Formula in Document | [optional]
+**condition_adjusted_quantity** | [**\BeLenka\SAP\StockTransportOrderODV4\Model\AdjustedQty**](AdjustedQty.md) |  | [optional]
+**condition_type_name** | **string** |  | [optional]
+**tax_code_name** | **string** |  | [optional]
+**condition_is_deletable** | **bool** |  | [optional]
+**pricing_procedure** | **string** | Procedure (Pricing, Output Control, Acct. Det., Costing,...) | [optional]
+**sap__messages** | [**\BeLenka\SAP\StockTransportOrderODV4\Model\ComSapGatewaySrvdA2xApiStocktransportorderV0001SAPMessageUpdate[]**](ComSapGatewaySrvdA2xApiStocktransportorderV0001SAPMessageUpdate.md) |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
