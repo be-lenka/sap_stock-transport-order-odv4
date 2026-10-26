@@ -79,6 +79,11 @@
       "url": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata4/sap/api_stocktransportorder/srvd_a2x/sap/stocktransportorder/0001"
     }
   ],
+  "security": [
+    {
+      "basicAuthentication": []
+    }
+  ],
   "x-sap-extensible": {
     "supported": "manual",
     "description": "If you are working with key user extensibility, the API can be extended by custom fields on the following business contexts (field usage for this API needs to be selected):\r\n* Procurement: Purchasing Document (MM_PURDOC_HEADER)\r\n* Procurement: Purchasing Document Item (MM_PURDOC_ITEM)\r\n\r\n[How to add an extension field to an API](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/ce819b8557194ae0aa180ba4ac6a04de.html)"

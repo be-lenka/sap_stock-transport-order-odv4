@@ -47,11 +47,17 @@ Get related _StockTransportOrderItem
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Purchasing Document Number
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Item Number of Purchasing Document
@@ -83,7 +89,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -109,11 +115,17 @@ Get related _StockTransportOrderItem
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -151,7 +163,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -177,11 +189,17 @@ Get related _StockTransportOrderItem
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -213,7 +231,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -239,11 +257,17 @@ Get related _StockTransportOrderItem
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -279,7 +303,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -305,11 +329,17 @@ Get entities from StockTransportOrderItem
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $top = 50; // int | Show only the first n items, see [Paging - Top](http://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html#sec_SystemQueryOptiontop)
 $skip = 56; // int | Skip the first n items, see [Paging - Skip](http://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html#sec_SystemQueryOptionskip)
@@ -345,7 +375,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -371,11 +401,17 @@ Get related _StockTransportOrderItem
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -409,7 +445,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -435,11 +471,17 @@ Get entity from StockTransportOrderItem by key
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -469,7 +511,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -495,11 +537,17 @@ Update entity in StockTransportOrderItem
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -527,7 +575,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -553,11 +601,17 @@ Invoke action BlockItem
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -582,7 +636,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -608,11 +662,17 @@ Invoke function ReadDeliveryAddress
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -638,7 +698,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -664,11 +724,17 @@ Invoke action SetItemToDeleted
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -693,7 +759,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -719,11 +785,17 @@ Invoke action SetItemToNotDeleted
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -748,7 +820,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -774,11 +846,17 @@ Invoke action UnblockItem
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -803,7 +881,7 @@ void (empty response body)
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -829,11 +907,17 @@ Get entities from related _STOAccountAssignment
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -873,7 +957,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -899,11 +983,17 @@ Add new entity to related _STOAccountAssignment
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -931,7 +1021,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -957,11 +1047,17 @@ Get entities from related _STOItemNote
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -1001,7 +1097,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -1027,11 +1123,17 @@ Add new entity to related _STOItemNote
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -1059,7 +1161,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -1085,11 +1187,17 @@ Get entities from related _STOItemPricingElement
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -1129,7 +1237,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -1155,11 +1263,17 @@ Add new entity to related _STOItemPricingElement
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -1187,7 +1301,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -1213,11 +1327,17 @@ Get entities from related _STOScheduleLine
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -1257,7 +1377,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -1283,11 +1403,17 @@ Add new entity to related _STOScheduleLine
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -1315,7 +1441,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -1341,11 +1467,17 @@ Get related _STOShipping
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -1375,7 +1507,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -1401,11 +1533,17 @@ Get related _StockTransportOrder
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -1435,7 +1573,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -1461,11 +1599,17 @@ Get related _StockTransportOrderItem
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $stock_transport_order_item = 'stock_transport_order_item_example'; // string | Stock Transport Order Item
@@ -1495,7 +1639,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -1521,11 +1665,17 @@ Get entities from related _StockTransportOrderItem
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $top = 50; // int | Show only the first n items, see [Paging - Top](http://docs.oasis-open.org/odata/odata/v4.01/odata-v4.01-part1-protocol.html#sec_SystemQueryOptiontop)
@@ -1563,7 +1713,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
@@ -1589,11 +1739,17 @@ Add new entity to related _StockTransportOrderItem
 require_once(__DIR__ . '/vendor/autoload.php');
 
 
+// Configure HTTP basic authorization: basicAuthentication
+$config = BeLenka\SAP\StockTransportOrderODV4\Configuration::getDefaultConfiguration()
+              ->setUsername('YOUR_USERNAME')
+              ->setPassword('YOUR_PASSWORD');
+
 
 $apiInstance = new BeLenka\SAP\StockTransportOrderODV4\Api\ItemInStockTransportOrderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
-    new GuzzleHttp\Client()
+    new GuzzleHttp\Client(),
+    $config
 );
 $stock_transport_order = 'stock_transport_order_example'; // string | Stock Transport Order
 $com_sap_gateway_srvd_a2x_api_stocktransportorder_v0001_stock_transport_order_item_type_create = new \BeLenka\SAP\StockTransportOrderODV4\Model\ComSapGatewaySrvdA2xApiStocktransportorderV0001StockTransportOrderItemTypeCreate(); // \BeLenka\SAP\StockTransportOrderODV4\Model\ComSapGatewaySrvdA2xApiStocktransportorderV0001StockTransportOrderItemTypeCreate | New entity
@@ -1619,7 +1775,7 @@ try {
 
 ### Authorization
 
-No authorization required
+[basicAuthentication](../../README.md#basicAuthentication)
 
 ### HTTP request headers
 
